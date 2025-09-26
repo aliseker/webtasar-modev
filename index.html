@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ali Şeker</title>
+  <style>
+    body {margin:0;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;background:#222;color:#eee;}
+    header {background:#1abc9c;padding:20px;text-align:center;}
+    header h1 {margin:0;font-size:28px;color:#fff;}
+    nav {margin-top:12px;}
+    nav a {color:#fff;text-decoration:none;margin:0 10px;padding:6px 10px;border-radius:4px;transition:background .2s;}
+    nav a:hover {background:rgba(255,255,255,0.2);}
+    main {max-width:960px;margin:30px auto;padding:0 16px;display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+    section {background:#333;padding:16px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.3);}
+    section.full {grid-column:1/3;}
+    h2 {margin-top:0;color:#1abc9c;}
+    img.gallery {width:100%;border-radius:6px;margin-bottom:10px;}
+    iframe {width:100%;height:260px;border:none;border-radius:6px;}
+    footer {background:#1abc9c;color:#fff;text-align:center;padding:14px;margin-top:30px;}
+    @media (max-width:768px){main{grid-template-columns:1fr;}section.full{grid-column:1;}}
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ali Şeker</h1>
+    <nav>
+      <a href="#hakkimda">Hakkımda</a>
+      <a href="#projeler">Projeler</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#video">Video</a>
+      <a href="#iletisim">İletişim</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hakkimda">
+  <h2>Hakkımda</h2>
+  <p>
+    Merhaba! Ben Ali, web teknolojilerine ve yaratıcı projelere tutkuyla bağlı bir geliştiriciyim. 
+    Çocukluk yıllarımdan beri bilgisayarlarla uğraşmayı ve yeni şeyler keşfetmeyi seviyorum. Üniversite hayatım boyunca 
+    hem akademik hem de bireysel projeler geliştirerek kendimi sürekli geliştirdim. HTML, CSS, JavaScript gibi temel 
+    teknolojilerin yanı sıra React ve Node.js gibi modern kütüphanelerle de ilgileniyorum.
+  </p>
+</section>
+
+   <section id="projeler">
+  <h2>Projeler</h2>
+  <ul>
+    <li><strong>Kişisel Blog Platformu:</strong> HTML/CSS/JavaScript kullanarak sıfırdan geliştirdiğim, mobil uyumlu 
+        kişisel blog sitesi. Markdown destekli içerik yönetimi içeriyor.</li>
+    <li><strong>Yapay Zeka Sohbet Botu:</strong> Python ve Flask ile hazırlanmış, kullanıcı sorularına gerçek zamanlı 
+        yanıt veren temel bir chatbot uygulaması.</li>
+    <li><strong>Film Arama Uygulaması:</strong> TMDB API’sini kullanan, React tabanlı, filmler hakkında arama ve favori 
+        listesi oluşturma özellikleri olan SPA.</li>
+    
+  </ul>
+</section>
+
+<section id="galeri">
+  <div>
+    <h2>Galeri</h2>
+    <div class="gallery">
+<img class="gallery" src="media/WhatsApp Görsel 2025-09-26 saat 15.40.23_8344a2d6.jpg" alt="g1">
+    </div>
+  </div>
+</section>
+<section>
+  <div>
+    <h2>Tanıtım Videosu</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HgzGwKwLmgM?si=BXm1iHnXYigoZGWT" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+</section>
+
+    <section id="iletisim" class="full">
+      <h2>İletişim</h2>
+      <p>E-posta: alisekergibi@gmail.com<br>Telefon: +90 5383406834</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Ali Şeker — Öğrenci No: 2321032076
+  </footer>
+
+</body>
+</html>
